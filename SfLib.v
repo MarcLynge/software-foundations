@@ -19,7 +19,8 @@ Require Export Arith.EqNat.  (* Contains [beq_nat], among other things *)
 
 (** * From Basics.v *)
 
-Definition admit {T: Type} : T.  Admitted.
+Definition admit {T: Type} : T.
+Admitted. (*这是个什么玩意，难道不能证明吗*)
 
 Require String. Open Scope string_scope.
 
